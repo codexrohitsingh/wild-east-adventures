@@ -3,6 +3,9 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Adventures from "@/components/Adventures";
 import Destinations from "@/components/Destinations";
+import About from "@/components/About";
+import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LoginModal from "@/components/LoginModal";
 
@@ -15,6 +18,9 @@ const Index = () => {
       <Hero />
       <Adventures />
       <Destinations />
+      <About />
+      <Testimonials />
+      <Contact />
       <Footer />
       <LoginModal 
         isOpen={isLoginModalOpen} 
